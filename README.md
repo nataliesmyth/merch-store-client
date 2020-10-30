@@ -74,7 +74,7 @@ user to be authenticated before visiting. This component lives in
 It's a thin wrapper around React Router's `<Route />` component. The only
 difference is that it expects a prop called `user`, and if that prop is falsy,
 it will render a `<Redirect />` that takes the user to `/`. **To use
-it, you must pass it the user as a prop!**
+it, you must pass in the user as a prop!**
 
 It supports both the `component=` and `render=` attributes, but like `<Route />`
 it will not forward props to the component if you use `component=`.
